@@ -15,7 +15,6 @@ public class Task11 {
       reverseWords("eating like I[ ]");
     }
     public static String reverseWords(String str){
-
         List<String> x1 = Arrays.asList( str.split("\\s+"));
         Collections.reverse(x1);
         StringBuilder s = new StringBuilder();
